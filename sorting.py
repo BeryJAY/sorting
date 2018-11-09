@@ -7,8 +7,6 @@ def sorting(taken_list):
     odd_list=[]
     char_list=[]
 #The conditional logic using The isinstance() function that checks if the object (first argument) is an instance or subclass of classinfo class (second argument).
-
-
     if not isinstance(taken_list,list):
 #outputting  a message "Invalid input"  when the condtion is not satisfied
         print("Invalid input")
